@@ -1,24 +1,14 @@
 package ShortestPath;
 
-public class Stap {
-    String naam;
-    Integer duur;
+public class Stap{
+    Character naam;
+    Character doel;
+    int lengte;
 
-    public Integer getDuur() {
-        return duur;
-    }
-
-    public String getNaam() {
-        return naam;
-    }
-
-    public void setDuur(Integer duur) {
-        this.duur = duur;
-    }
-
-    public void setNaam(String naam) {
+    public Stap(Character naam, Character doel, int lengte){
         this.naam = naam;
+        this.doel = doel;
+        this.lengte = lengte;
     }
-
 
 }
